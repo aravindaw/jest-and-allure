@@ -1,0 +1,41 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "preset": "jest-playwright-preset"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "chalk": "^2.3.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^1.9.2",
+    "puppeteer": "^0.13.0",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^27.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "jest": "^27.3.0",
+    "allure-commandline": "^2.13.8",
+    "jest-allure": "^0.1.1",
+    "jest-environment-node": "^27.3.1",
+    "prettier": "^2.4.1",
+    "puppeteer": "^11.0.0",
+    "chalk": "^2.4.2",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.3",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
