@@ -1,0 +1,10 @@
+.vscode/*.code-workspace
+.vscode/launch.json
+.codepress
+node_modules
+__out
+output
+allure-results
+# ESLINT
+.idea
+.DS_Store
